@@ -1210,7 +1210,100 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Buy Tickets Section
 --------------------------------------------------------------*/
+#buy-tickets {
+  padding: 60px 0 60px 0;
+}
 
+#buy-tickets .nav-tabs {
+  text-align: center;
+  margin: auto;
+  display: block;
+  border-bottom: 0;
+  margin-bottom: 30px;
+}
+
+#buy-tickets .nav-tabs li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+#buy-tickets .nav-tabs a {
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: #0e1b4d;
+  color: #fff;
+  padding: 10px 100px;
+}
+
+#buy-tickets .nav-tabs a.active {
+  background-color: #f82249;
+  color: #fff;
+}
+
+#buy-tickets .sub-heading {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 auto 30px auto;
+}
+
+#buy-tickets .tab-pane {
+  transition: ease-in-out .2s;
+}
+
+#buy-tickets .schedule-item {
+  border-bottom: 1px solid #cad4f6;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: background-color ease-in-out 0.3s;
+}
+
+#buy-tickets .schedule-item:hover {
+  background-color: #fff;
+}
+
+#buy-tickets .schedule-item time {
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+#buy-tickets .schedule-item .speaker {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+#buy-tickets .schedule-item .speaker img {
+  height: 100%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  margin-left: 50%;
+  transition: all ease-in-out 0.3s;
+}
+
+#buy-tickets .schedule-item h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#buy-tickets .schedule-item h4 span {
+  font-style: italic;
+  color: #19328e;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+#buy-tickets .schedule-item p {
+  font-style: italic;
+  color: #152b79;
+  margin-bottom: 0;
+}
+/*
 #buy-tickets {
   padding: 60px 0;
 }
@@ -1282,7 +1375,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #buy-tickets #buy-ticket-modal .btn:hover {
   background-color: #e0072f;
 }
-
+*/
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/

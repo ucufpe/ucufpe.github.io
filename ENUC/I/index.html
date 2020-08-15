@@ -520,14 +520,67 @@
     <!--==========================
       Buy Ticket Section
     ============================-->
-    <section id="buy-tickets" class="section-with-bg wow fadeInUp">
-      <div class="container">
+
+    <section id="buy-tickets" class="section-with-bg">
+      <div class="container wow fadeInUp">
 
         <div class="section-header">
           <h2>INSCRIÇÃO</h2>
-          <p>Preencha o formulário para inscrição no evento</p>
+          <p>Realize aqui sua inscrição no evento</p>
         </div>
+		
+		 <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" href="#insc" role="tab" data-toggle="tab">Inscrição</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#subm" role="tab" data-toggle="tab">Submissão</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#docs" role="tab" data-toggle="tab">Documentos</a>
+          </li>
+        </ul>
+		
+		<div class="tab-content row justify-content-center">
 
+          <!-- Schdule subscription -->
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="insc">
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>13h00</time></div>
+              <div class="col-md-10">
+		        <h4>Abertura <span>Mônica Cotta</span></h4>
+                <p>Presidente da SBPMat</p>
+              </div>
+            </div>
+		  </div>
+		  <!-- End Schdule subscription -->
+
+          <!-- Schdule submission -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="subm">
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>13h00</time></div>
+              <div class="col-md-10">
+                <h4>Apresentações acerca do tema para o dia:<span> Pesquisa, Ensino e Extensão</span></h4>
+                <p>10 minutos para apresentação e 5 minutos para perguntas</p>
+              </div>
+            </div>
+		  </div>
+		  <!-- End Schdule submission -->
+		  
+		  <!-- Schdule documents -->
+		  <div role="tabpanel" class="col-lg-9  tab-pane fade" id="docs">
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>13h00</time></div>
+              <div class="col-md-10">
+                <h4>Apresentações acerca do tema para o dia: <span>O University Chapter e a Multidisciplinaridade</span></h4>
+                <p>10 minutos para apresentação e 5 minutos para perguntas</p>
+              </div>
+            </div>
+		  </div>
+		  <!-- End Schdule documents -->
+		</div>
+		
+		<!--
         <div class="row">
           <div class="col-lg-4">
             <div class="card mb-5 mb-lg-0">
@@ -571,7 +624,9 @@
               </div>
             </div>
           </div>
+		  -->
           <!-- Pro Tier -->
+		  <!--
           <div class="col-lg-4">
             <div class="card">
               <div class="card-body">
@@ -597,8 +652,9 @@
         </div>
 
       </div>
-
+	  -->
       <!-- Modal Order Form -->
+	  <!--
       <div id="buy-ticket-modal" class="modal fade">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -629,8 +685,8 @@
                 </div>
               </form>
             </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
+          </div>--><!-- /.modal-content -->
+        <!--</div>--><!-- /.modal-dialog -->
       </div><!-- /.modal -->
 
     </section>
