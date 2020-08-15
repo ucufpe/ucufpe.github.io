@@ -549,71 +549,72 @@
 			  <div class="form">
 			  <!--<div id="sendmessage">Your message has been sent. Thank you!</div>-->
 			  <div id="errormessage"></div>
-			  <form action="" method="post" role="form" class="contactForm">
+			  <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSd_rgrHqRyHr_R7UDiF56F-kt1L7oNaNAt2_W7mE7POyyAC7Q/formResponse?usp=pp_url" target="hidden_iframe" onsubmit="submitted=true;">
 				<div class="form-row">
 				  <div class="form-group col-md-6">
 					Endereço de e-mail*</br>
-					<input type="email" class="form-control" name="email" id="email" placeholder="Endereço de E-mail" data-rule="email" data-msg="Por favor digite um e-mal válido!" />
+					<input type="email" class="form-control" name="entry.54741622" id="entry.54741622" placeholder="Endereço de E-mail" data-rule="email" data-msg="Por favor digite um e-mal válido!" />
 					<div class="validation"></div>
 				  </div>
 				  <div class="form-group col-md-6">
 				    Nome Completo*</br>
-					<input type="text" name="name" class="form-control" id="name" placeholder="Nome Completo" data-rule="minlen:4" data-msg="Por favor digite pelo menos 3 caracteres!" />
+					<input type="text"  class="form-control" name="entry.407887801" id="entry.407887801" placeholder="Nome Completo" data-rule="minlen:4" data-msg="Por favor digite pelo menos 3 caracteres!" />
 					<div class="validation"></div>
 				  </div>
 				</div>
 				<div class="form-row">
 				  <div class="form-group col-md-6">
 					CPF*</br>
-					<input type="number" class="form-control" name="cpf" id="cpf" placeholder="Digite seu CPF" data-rule="minlen:11" data-msg="Digite apenas números!" />
+					<input type="number" class="form-control" name="entry.1381692824" id="entry.1381692824" placeholder="Digite seu CPF" data-rule="minlen:11" data-msg="Digite apenas números!" />
 					<div class="validation"></div>
 				  </div>
 				  <div class="form-group col-md-6">
 					Telefone*</br>
-					<input type="tel" name="phone" class="form-control" id="phone" placeholder="Telefone com DDD" data-rule="minlen:10" data-msg="Por favor digite pelo menos 3 caracteres!" />
+					<input type="tel" class="form-control" name="entry.1524467874" id="entry.1524467874" placeholder="Telefone com DDD" data-rule="minlen:10" data-msg="Por favor digite pelo menos 3 caracteres!" />
 					<div class="validation"></div>
 				  </div>
 				</div>
 				<div class="form-row">
 				  <div class="form-group col-md-6">
 					Cidade/UF*</br>
-					<input type="text" name="citystate" class="form-control" id="citystate" placeholder="Cidade/Estado" data-rule="minlen:6" data-msg="Por favor digite pelo menos 6 caracteres!" />
+					<input type="text" class="form-control" name="entry.890689446" id="entry.890689446" placeholder="Cidade/Estado" data-rule="minlen:6" data-msg="Por favor digite pelo menos 6 caracteres!" />
 					<div class="validation"></div>
 				  </div>
 				  <div class="form-group col-md-6">
 					Instituição de Ensino*</br>
-					<input type="text" name="educational" class="form-control" id="educational" placeholder="Instituição de Ensino" data-rule="minlen:9" data-msg="Por favor digite pelo menos 9 caracteres!" />
+					<input type="text" class="form-control" name="entry.1602004837" id="entry.1602004837" placeholder="Instituição de Ensino" data-rule="minlen:9" data-msg="Por favor digite pelo menos 9 caracteres!" />
 					<div class="validation"></div>
 				  </div>
 								
 				<div class="form-grpoup">
 					Formação*</br>
-					<input TYPE="radio" NAME="formation" VALUE="graduate"> Gradução</br>
-					<input TYPE="radio" NAME="formation" VALUE="master"> Mestrado</br>
-					<input TYPE="radio" NAME="formation" VALUE="doctorate"> Doutorado</br>
-					<input TYPE="radio" NAME="formation" VALUE="posdoc"> Pos-Doc</br>
-					<input TYPE="radio" NAME="formation" VALUE="others"> Outro - especifique 
-						<input type="text" name="specify" class="form-control" id="specify" placeholder="Outro" data-rule="minlen:4" data-msg="Por favor digite pelo menos 4 caracteres!" />
+					<input type="radio" name="entry.1469294638" id="entry.1469294638" value="Graduacao"> Gradução</br>
+					<input type="radio" name="entry.1469294638" id="entry.1469294638" value="Mestrado"> Mestrado</br>
+					<input type="radio" name="entry.1469294638" id="entry.1469294638" value="Doutorado"> Doutorado</br>
+					<input type="radio" name="entry.1469294638" id="entry.1469294638" value="Pos-doc"> Pos-Doc</br>
+					<input type="radio" name="entry.1469294638" id="entry.1469294638" value="Outro"> Outro - especifique 
+						<input type="text" class="form-control" name="entry.1469294638" id="entry.1469294638" placeholder="Outro" data-rule="minlen:4" data-msg="Por favor digite pelo menos 4 caracteres!" />
 					<div class="validation"></div>	
 					
 					</br>			
 					Pretende Submeter Trabalho*</br>
-					<input TYPE="radio" NAME="work" VALUE="yes"> Sim</br>
-					<input TYPE="radio" NAME="work" VALUE="no"> Não</br>
+					<input type="radio" name="entry.1492544852" id="entry.1492544852" value="Sim"> Sim</br>
+					<input type="radio" name="entry.1492544852" id="entry.1492544852" value="Nao"> Não</br>
 					<div class="validation"></div>
 					
 					</br>
 					É membro de algum chapter*</br>
-					<input TYPE="radio" NAME="chapter" VALUE="yes"> Sim</br>
-					<input TYPE="radio" NAME="chapter" VALUE="no"> Não</br>
+					<input type="radio" name="entry.911609451" id="entry.911609451" value="Sim"> Sim</br>
+					<input type="radio" name="entry.911609451" id="entry.911609451" value="Nao"> Não</br>
 					<div class="validation"></div>
 					</br>
-					<div class="text-center"><button type="submit">ENVIAR</button></div>
+					<div class="text-center"><button type="submit" value="Submit">ENVIAR</button></div>
+					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 				</div>
 			  </form>
 			  </div>
 		  </div>
-		</div>
+		  </div>
 		  <!-- End Schdule inscrição -->
 
           <!-- Schdule submission -->
