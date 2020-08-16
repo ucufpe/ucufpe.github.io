@@ -553,12 +553,15 @@
 
           <!-- Schdule inscrição -->
           <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="insc">
- 
+			  <p>
+			  <h4>NÃO É NECESSÁRIO CLICAR DUAS OU MAIS VEZES PARA ENVIAR. AGUARDE CONFIRMAÇÃO!</h4></br>
+			  *Campos de Preenchimentos Obrigatório.</br>
+			  Após envio, em até 24h confirmaremos sua inscrição por e-mail. O ENUC agradece!</p>
 			  <div class="form">
 			  <!--<div id="sendmessage">Your message has been sent. Thank you!</div>-->
 			  <div id="errormessage"></div>
 			  <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSd_rgrHqRyHr_R7UDiF56F-kt1L7oNaNAt2_W7mE7POyyAC7Q/formResponse?usp=pp_url" target="hidden_iframe" onsubmit="submitted=true;">
-				<div class="form-row">
+				<div class="form-row">	
 				  <div class="form-group col-md-6">
 					Endereço de e-mail*</br>
 					<input type="email" class="form-control" name="entry.54741622" id="entry.54741622" placeholder="Endereço de E-mail" />
@@ -638,115 +641,7 @@
 		  </div>
 		  <!-- End Schdule documents -->
 		</div>
-		
-		<!--
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Standard Access</h5>
-                <h6 class="card-price text-center">$150</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Community Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Workshop Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>After Party</li>
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="standard-access">Buy Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card mb-5 mb-lg-0">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Pro Access</h5>
-                <h6 class="card-price text-center">$250</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Community Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>Workshop Access</li>
-                  <li class="text-muted"><span class="fa-li"><i class="fa fa-times"></i></span>After Party</li>
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="pro-access">Buy Now</button>
-                </div>
-              </div>
-            </div>
-          </div>
-		  -->
-          <!-- Pro Tier -->
-		  <!--
-          <div class="col-lg-4">
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title text-muted text-uppercase text-center">Premium Access</h5>
-                <h6 class="card-price text-center">$350</h6>
-                <hr>
-                <ul class="fa-ul">
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Regular Seating</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Coffee Break</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Custom Badge</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Community Access</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Workshop Access</li>
-                  <li><span class="fa-li"><i class="fa fa-check"></i></span>After Party</li>
-                </ul>
-                <hr>
-                <div class="text-center">
-                  <button type="button" class="btn" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="premium-access">Buy Now</button>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
-	  -->
-      <!-- Modal Order Form -->
-	  <!--
-      <div id="buy-ticket-modal" class="modal fade">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title">Buy Tickets</h4>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <form method="POST" action="#">
-                <div class="form-group">
-                  <input type="text" class="form-control" name="your-name" placeholder="Your Name">
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="your-email" placeholder="Your Email">
-                </div>
-                <div class="form-group">
-                  <select id="ticket-type" name="ticket-type" class="form-control" >
-                    <option value="">-- Select Your Ticket Type --</option>
-                    <option value="standard-access">Standard Access</option>
-                    <option value="pro-access">Pro Access</option>
-                    <option value="premium-access">Premium Access</option>
-                  </select>
-                </div>
-                <div class="text-center">
-                  <button type="submit" class="btn">Buy Now</button>
-                </div>
-              </form>
-            </div>
-          </div>--><!-- /.modal-content -->
-        <!--</div>--><!-- /.modal-dialog -->
-      </div><!-- /.modal -->
 
     </section>
 
@@ -817,19 +712,18 @@
             <ul>
               <li><i class="fa fa-angle-right"></i> <a href="#intro">Home</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="#about">Sobre ENUC</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="https://www.sbpmat.org.br/">SBPMat</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Termos de Serviço</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Política de Privacidade</a></li>
+			  <li><i class="fa fa-angle-right"></i> <a href="#faq">Perguntas</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="https://www.sbpmat.org.br/" target="_blank">SBPMat</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="http://www.ufpe.br" target="_blank">UFPE</a></li>
             </ul>
           </div>
 	
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Documentos</h4>
             <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Cronograma</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Proposta</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Edital Submissão</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Modelo</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="https://drive.google.com/file/d/11Co-ZsPuOGcoom3lB60eSN6NyTThac3M/view?usp=sharing" target="_blank">Programação</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="https://drive.google.com/file/d/1sk6sZ4_38bSIlxtJklD1rF9N0i5p1j6X/view?usp=sharing" target="_blank">Proposta</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="https://drive.google.com/file/d/1CvbQYmeClrqgr0T9hXnP8BGd2Q2GdAfA/view?usp=sharing" target="_blank">Template</a></li>
             </ul>
           </div>
 
